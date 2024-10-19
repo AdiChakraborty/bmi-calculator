@@ -1,0 +1,29 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+    /* background-color: #212121; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#height{
+    padding: 5px;
+}
+
+#weight{
+    padding: 5px;
+}
+
+#btn{
+    height: 35px;
+    width: 70px;
+    /* padding: 10px; */
+    margin: 10px;
+}
