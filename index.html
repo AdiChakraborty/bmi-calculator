@@ -8,13 +8,16 @@
 </head>
 <body>
     <div id="container">
+        <div id="upper">
         <h1>BMI calculator</h1>
         <br>
         <form>
-            <p><label for="">Height in cm: <input type="text" id="height"></label></p>
+            <p><div for="" class="lbl">Height in CM : <input type="text" id="height"></div></p>
             <br>
-            <p><label for="">Weight in KG: <input type="text" id="weight"></label></p>
+            <p><div for="" class="lbl">Weight in KG: <input type="text" id="weight"></div></p>
             <br>
+        </div>
+        <div id="bottom">
             <button id="btn">Calculate</button>
             <br>
             <div id="results">  </div>
@@ -22,12 +25,13 @@
             <div id="weight-guide">
             <h3>BMI weight guide</h3>
             <br>
-            <p>Under weight lessthen 18.6</p>
+            <p class="lbl">Under weight lessthen 18.6</p>
             <br>
-            <p>Normal range 18.6 to 24.9</p>
+            <p class="lbl">Normal range 18.6 to 24.9</p>
             <br>
-            <p>Overweight = graterthen 24.9</p>
+            <p class="lbl">Overweight = graterthen 24.9</p>
         </div>
+    </div>
         </form>
     </div>
     <script src="script.js"></script>

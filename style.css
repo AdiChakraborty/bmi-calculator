@@ -7,23 +7,63 @@ html,body{
     height: 100%;
     width: 100%;
     box-sizing: border-box;
-    /* background-color: #212121; */
+    background-color: rgb(0, 0, 0);
+    color: aliceblue;
+}
+#upper{
+    padding-top: 90px;
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
+}
+#bottom{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#container h1{
+    text-align: center;
+    color: aquamarine;
+}
+.lbl{
+    font-size: 900;
+    font-weight: 900;
+    font-style: italic;
+    margin: 5px 5px;
+    padding: 10px 0px;
 }
 
 #height{
     padding: 5px;
+    border: 2px solid blue;
+    border-radius: 5px;
+    background-color: rgb(149, 192, 219);
 }
 
 #weight{
     padding: 5px;
+    border: 2px solid blue;
+    border-radius: 5px;
+    background-color: rgb(149, 192, 219);
 }
 
 #btn{
+    margin: 10px 117px;
     height: 35px;
     width: 70px;
-    /* padding: 10px; */
     margin: 10px;
+    border: 2px solid blue;
+    border-radius: 5px;
+    background-color: rgb(149, 192, 219);
+    font-weight: 400;
+    font-size: 700;
+}
+#weight-guide h3{
+    font-size: 900;
+    font-weight: 900;
+    font-style: italic;
+    padding-left: 30px;
+    padding-bottom: 5px;
 }
